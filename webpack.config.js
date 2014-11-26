@@ -1,11 +1,11 @@
 module.exports = {
-  entry: './example/main.js',
+  entry: './components/main.js',
   output: {
-    filename: './build/bundle.js'
+    filename: './site/bundle.js'
   },
   module: {
     loaders: [
-      {test: /\.js$/, loader: 'jsx-loader'}
+      { test: /\.js$/, loader: 'jsx-loader' }
     ]
   }
 };
