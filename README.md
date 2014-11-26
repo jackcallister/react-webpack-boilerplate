@@ -10,9 +10,11 @@ This is an as simple as possible boilerplate for getting up and running with Rea
 
 `npm install`
 
+`npm install webpack -g`
+
 `webpack -w`
 
-In a new terminal tab
+Webpack is now watching your project for changes. Open up a new terminal tab to boot up a server.
 
 `cd app/site`
 
