@@ -7,5 +7,10 @@
   "devDependencies": {
     "jsx-loader": "^0.12.1",
     "webpack": "^1.4.12"
+  },
+  "scripts": {
+    "start": "npm run webpack & npm run serve",
+    "webpack": "webpack -w",
+    "serve": "cd site && python -m SimpleHTTPServer"
   }
 }

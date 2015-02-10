@@ -12,12 +12,8 @@ This is an as simple as possible boilerplate for getting up and running with Rea
 
 `npm install webpack -g`
 
-`webpack -w`
+`npm start`
 
-Webpack is now watching your project for changes. Open up a new terminal tab to boot up a server.
-
-`cd app/site`
-
-`python -m SimpleHTTPServer`
+Webpack is now watching your project for changes and a Python server is running.
 
 Visit `http://localhost:8000` and you should be good to go!
