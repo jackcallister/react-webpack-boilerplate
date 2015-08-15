@@ -4,7 +4,7 @@ var Component = React.createClass({
 
   render: function() {
     return (
-      <h1>Component is working!</h1>
+      <h1>The component is rendering!</h1>
     );
   }
 

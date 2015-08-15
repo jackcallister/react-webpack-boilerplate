@@ -1,11 +1,17 @@
 module.exports = {
-  entry: './components/main.js',
+  entry: './index.jsx',
+
   output: {
-    filename: './site/bundle.js'
+    filename: './dist/bundle.js'
   },
+
+  resolve: {
+    extensions: ['', '.js', '.jsx']
+  },
+
   module: {
     loaders: [
-      { test: /\.js$/, loader: 'jsx-loader' }
+      { test: /\.jsx?$/, loader: 'babel' }
     ]
   }
 };
